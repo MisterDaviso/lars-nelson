@@ -16,14 +16,14 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Social(props) {
     const classes = useStyles();
-    const { social } = props;
+    const { content } = props;
 
     return (
-        <Grid item xs={12} md={4}>
+        <Grid item xs={2} md={2}>
             <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
                 Social
             </Typography>
-            {social.map((network) => (
+            {content.map((network) => (
                 <Link display="block" variant="body1" href="#" key={network}>
                     <Grid container direction="row" spacing={1} alignItems="center">
                         <Grid item> <network.icon /> </Grid>

@@ -1,3 +1,4 @@
+export default `
 ## Plan Ahead
 
 An online school website that allows teachers to create classes and assignments and for students to sign up for those classes and view those assignments. Features complex database manipulation and user freedom.
@@ -6,3 +7,4 @@ This was a group project, and my contribution was the entirety of the server-sid
 
 Client: https://github.com/ObtuseSpruce/pugetsound-client
 Server: https://github.com/MisterDaviso/pugetsound-schools-server
+`

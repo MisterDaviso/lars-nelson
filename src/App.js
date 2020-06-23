@@ -1,5 +1,5 @@
 import React from 'react';
-import Blog from './content/Blog/Blog'
+import Blog from './content/Blog'
 import {BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
