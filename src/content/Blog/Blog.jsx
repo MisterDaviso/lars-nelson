@@ -3,17 +3,21 @@ import { makeStyles } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Container from '@material-ui/core/Container';
+import Typography from '@material-ui/core/Typography'
 import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import DownloadIcon from '@material-ui/icons/ArrowDownward'
 import Header from './Header';
-import Main from './Main';
-import Sidebar from './Sidebar';
 import Footer from './Footer';
 import PortfolioSection from './PortfolioSection'
+import Social from './Social'
 // The Project information
-import project1 from './Projects/underground_combat.md';
-import project2 from './Projects/personalized_twitter.md';
-import project3 from './Projects/plan_ahead.md';
-import project4 from './Projects/teach_machines_to_check.md';
+import project1 from './Content/underground_combat.md';
+import project2 from './Content/personalized_twitter.md';
+import project3 from './Content/plan_ahead.md';
+import project4 from './Content/teach_machines_to_check.md';
+import about from './Content/about.md'
+import contact from './Content/contact.md'
 //import post2 from './blog-post.2.md';
 //import post3 from './blog-post.3.md';
 
@@ -44,14 +48,19 @@ const navigations = [
 // ];
 // The three .md files that were saved in the repository
 const projects = [project1, project2, project3, project4];
+// const projects2 = [
+//     {
+//         content: project1,
+//         link: 
+//     }
+// ]
 
 // This is...the sidebar. Yeah.
-const sidebar = {
-    social: [
-        { name: 'GitHub', icon: GitHubIcon, url: '#'},
-        { name: 'LinkedIn', icon: null, url: '#'},
-    ],
-};
+const social = [
+    { name: 'GitHub', icon: GitHubIcon, url: '#'},
+    { name: 'LinkedIn', icon: LinkedInIcon, url: '#'},
+    { name: 'Resume', icon: DownloadIcon, url: '#'}
+]
 
 /**
  * TODO: Adapt 'Main' into 'Projects'
@@ -63,15 +72,25 @@ export default function Blog() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="lg">
-                <Header title="Lars Nelson" sections={navigations} />
+                <Header sections={navigations} />
                 <main>
+                    <Typography
+                        component="h2"
+                        variant="h5"
+                        color="inherit"
+                        align="center"
+                        noWrap
+                        className={classes.toolbarTitle}
+                    >
+                        Lars Nelson
+                    </Typography>
                     <Grid container spacing={5} className={classes.mainGrid}>
                         <div>
                             <PortfolioSection title="About" content={[about]} />
                             <PortfolioSection title="Projects" content={projects} />
                             <PortfolioSection title="Contact" content={[contact]} />
                         </div>
-                        <Sidebar social={sidebar.social} />
+                        <Social social={social} />
                     </Grid>
                 </main>
             </Container>

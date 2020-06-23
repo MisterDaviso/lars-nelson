@@ -1,13 +1,11 @@
 import React from 'react';
-import NavBar from './content/NavBar'
-import Content from './content/Content'
+import Blog from './content/Blog/Blog'
 import {BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <Router>
-      <NavBar />
-      <Content />
+      <Blog />
     </Router>
   );
 }
