@@ -30,7 +30,7 @@ const options = {
         li: {
         component: withStyles(styles)(({ classes, ...props }) => (
             <li className={classes.listItem}>
-            <Typography component="span" {...props} />
+                <Typography component="span" {...props} />
             </li>
         )),
         },

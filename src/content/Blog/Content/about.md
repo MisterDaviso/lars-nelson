@@ -1,0 +1,3 @@
+## About
+
+I am a software engineer with a passion for creating cohesive, modular, and practical systems of logic. I ensure my work is not just functional, but conceptually sound. This is a skill that allows me to parse through old systems easily and adapt to new technologies quickly. I intend to work at the forefront of new technologies, both for the challenge it brings and the potential it provides.
