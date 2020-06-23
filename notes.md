@@ -11,10 +11,11 @@ This is the second iteration of my portfolio website, this time made with react!
     * An application that allows users to sort tweets of a particular hashtag according to their relevance to the user. Features OAuth2 authorization and Partitioned SQL tables.
     * This was the most technically challenging project during my time at GA. Postgres does not support partitioned tables, so a significant portion of database calls were written in raw SQL. OAuth was not part of our course material, and support for Twitter Oauth2 calls specifically is lacking. These two factors meant I was required to make up a significant portion of this data manipulation from scratch, which detracted from other areas such as styling, but in the end I was able to create a functional application.
 * Plan Ahead
-    * An online school website that allows users to sign up as either students or teachers. Teachers have the ability to create classes and assignemnts for those classes, while students have the ability to sign up for those classes and view the assignments, all built in TypeScript.
-    * This was a group project, and my contribution was the entirety of the server-side code. I built the models with input from my teammates and updated them as new information became necessary to store. I created numerous routes to perform several niche server calls, all at the request of my teammates to make their work as seamless as possible.
+    * An online school website that allows teachers to create classes and assignments and for students to sign up for those classes and view those assignments. Features complex database manipulation and user freedom.
+    * This was a group project, and my contribution was the entirety of the server-side code. I built the models with input from my teammates and updated them as new information became necessary to store. Multiple complex routes became necessary as more complex operations were required to ensure smoother user experiences on the front end.
 * Teach Machines to Check
-    * 
+    * A simple neural network designed to find an algorithm that can play checkers built entirely in python. The code determines every possible move on a given turn and then condenses that information into a readable format for the algorithm which then chooses the most optimal move among them.
+    * This was my final project as General Assembly. It required an understanding of calculus, linear algebra, and data manipulation. The former two allowed me to create an algorithm without the use of TensorFlow and the later I learned as I went through three iterations of structuring the board data for the algorithm to use.
 
 ### Links
 * Github
