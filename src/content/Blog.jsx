@@ -20,6 +20,9 @@ import about from './Posts/About'
 import contact from './Posts/Contact'
 
 const useStyles = makeStyles((theme) => ({
+    namePlate: {
+        marginTop: theme.spacing(10)
+    },
     mainGrid: {
         marginTop: theme.spacing(3),
     },
@@ -32,19 +35,19 @@ const useStyles = makeStyles((theme) => ({
 
 // The Nav Bar links
 const navigations = [
-    { title: 'Top', url: '#'},
-    { title: 'Projects', url: '#' },
-    { title: 'Contact', url: '#'},
-    { title: 'Resume', url: '#'}
+    { title: 'Top', url: '#Top'},
+    { title: 'About', url: '#About'},
+    { title: 'Projects', url: '#Projects' },
+    { title: 'Contact', url: '#Contact'},
 ];
 
 const projects = [GaProject1, GaProject2, GaProject3, GaProject4];
 
 // This is the social media section. And resume. Yeah.
 const socials = [
-    { name: 'GitHub', icon: GitHubIcon, url: '#'},
-    { name: 'LinkedIn', icon: LinkedInIcon, url: '#'},
-    { name: 'Resume', icon: DownloadIcon, url: '#'}
+    { name: 'GitHub', icon: GitHubIcon, url: 'https://github.com/MisterDaviso'},
+    { name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/lars-nelson-392084150/'},
+    //{ name: 'Resume', icon: DownloadIcon, url: '/resume'}
 ]
 
 /**
@@ -56,7 +59,7 @@ export default function Blog() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="lg">
-                <Header sections={navigations} />
+                <Header sections={navigations} id="Top"/>
                 <main>
                     <Typography
                         component="h2"
@@ -64,7 +67,7 @@ export default function Blog() {
                         color="inherit"
                         align="center"
                         noWrap
-                        className={classes.toolbarTitle}
+                        className={classes.namePlate}
                     >
                         Lars Nelson
                     </Typography>
@@ -75,7 +78,7 @@ export default function Blog() {
                     </Grid>
                 </main>
             </Container>
-            <Footer title="Footer" description="Something here to give the footer a purpose!" />
+            <Footer title="Lars Nelson" description="Thank you for your consideration!" />
         </React.Fragment>
     );
 }

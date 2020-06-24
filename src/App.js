@@ -1,11 +1,11 @@
 import React from 'react';
-import Blog from './content/Blog'
+import SiteRouter from './content/SiteRouter'
 import {BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
     <Router>
-      <Blog />
+      <SiteRouter />
     </Router>
   );
 }

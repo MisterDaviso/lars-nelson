@@ -18,7 +18,7 @@ export default function PortfolioSection(props) {
     const { content, title } = props;
 
     return (
-        <Grid item xs={12} md={12}>
+        <Grid item xs={12} md={12} id={title}>
             <Typography variant="h6" gutterBottom>
                 {title}
             </Typography>

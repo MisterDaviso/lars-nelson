@@ -10,11 +10,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "markdown-to-jsx": "^6.11.4",
+    "pdfjs-dist": "^2.4.456",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-pdf": "^4.1.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "webpack": "^4.43.0"
   },
   "scripts": {
     "start": "react-scripts start",
