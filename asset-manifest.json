@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lars-nelson/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/lars-nelson/static/js/main.29fba048.chunk.js",
+    "main.js.map": "/lars-nelson/static/js/main.29fba048.chunk.js.map",
+    "runtime-main.js": "/lars-nelson/static/js/runtime-main.5fd33e3d.js",
+    "runtime-main.js.map": "/lars-nelson/static/js/runtime-main.5fd33e3d.js.map",
+    "static/js/2.9edec5fa.chunk.js": "/lars-nelson/static/js/2.9edec5fa.chunk.js",
+    "static/js/2.9edec5fa.chunk.js.map": "/lars-nelson/static/js/2.9edec5fa.chunk.js.map",
+    "index.html": "/lars-nelson/index.html",
+    "precache-manifest.3a932794824f433983fb6729f1b600e9.js": "/lars-nelson/precache-manifest.3a932794824f433983fb6729f1b600e9.js",
+    "service-worker.js": "/lars-nelson/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/lars-nelson/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.9edec5fa.chunk.js.LICENSE.txt": "/lars-nelson/static/js/2.9edec5fa.chunk.js.LICENSE.txt",
+    "static/media/LarsNelsonResume.pdf": "/lars-nelson/static/media/LarsNelsonResume.c6368b88.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fd33e3d.js",
+    "static/js/2.9edec5fa.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.29fba048.chunk.js"
+  ]
+}
