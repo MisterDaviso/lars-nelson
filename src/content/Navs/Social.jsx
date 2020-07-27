@@ -24,12 +24,12 @@ export default function Social(props) {
                 Social
             </Typography>
             {content.map((network) => (
-                <Link display="block" variant="body1" href={network.url} key={network}>
-                    <Grid container direction="row" spacing={1} alignItems="center">
-                        <Grid item> <network.icon /> </Grid>
-                        <Grid item>{network.name}</Grid>
-                    </Grid>
-                </Link>
+                    <a href={network.url} target="_blank">
+                        <Grid container direction="row" spacing={1} alignItems="center">
+                            <Grid item> <network.icon /> </Grid>
+                            <Grid item>{network.name}</Grid>
+                        </Grid>
+                    </a>
             ))}
         </Grid>
     );

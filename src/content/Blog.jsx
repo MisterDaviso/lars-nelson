@@ -8,9 +8,10 @@ import Typography from '@material-ui/core/Typography';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import DownloadIcon from '@material-ui/icons/ArrowDownward'
-import Header from './Header';
-import Footer from './Footer';
-import Social from './Social'
+import Resume from './Posts/Resume.pdf'
+import Header from './Navs/Header';
+import Footer from './Navs/Footer';
+import Social from './Navs/Social'
 // The Project information
 import GaProject1 from './Posts/GaProject1';
 import GaProject2 from './Posts/GaProject2';
@@ -47,7 +48,7 @@ const projects = [GaProject1, GaProject2, GaProject3, GaProject4];
 const socials = [
     { name: 'GitHub', icon: GitHubIcon, url: 'https://github.com/MisterDaviso'},
     { name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/in/lars-nelson-392084150/'},
-    //{ name: 'Resume', icon: DownloadIcon, url: '/resume'}
+    { name: 'Resume', icon: DownloadIcon, url: Resume}
 ]
 
 /**
